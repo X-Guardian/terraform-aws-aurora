@@ -213,3 +213,8 @@ variable "tags" {
   default     = {}
   type        = "map"
 }
+variable "database_name" {
+  type        = "string"
+  description = "Name given to DB"
+  default     = ""
+}
